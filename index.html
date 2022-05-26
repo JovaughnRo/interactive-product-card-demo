@@ -1,0 +1,1336 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>Demo for the interactive product card</title>
+    </head>
+
+    <body>
+        <div class="container-fluid d-none d-md-block">
+            <div class="row flex-xl-nowrap">
+                <!-- side navigation bar demo  -->
+                <aside class="col-md-3 col-xl-3 nav-sidebar d-md-block d-none px-0">
+                    <div class="navSBCBox" id="lNav">
+                        <a class="list-group-item list-group-item-action border-0 p-0"
+                            href="#Crack-Sealing-and-waterproofing">
+                            <h2 class="p-3 pheader-title csawfs border-bottom">Crack Sealing <br> and Waterproofing</h2>
+                        </a>
+                        <div id="mainContent" class="list-group mc-List-csw">
+                            <a class="list-group-item list-group-item-action border-0 p-4"
+                                href="#Pavement-Crack-Routers">
+                                <p class="left-nav-title">Pavement Crack Routers<span class="LColor"> (CR)</span></p>
+                                <p class="mt-2 mb-0 lAM">Available Pavement Crack Router Models</p>
+                                <p class="LColor mb-3 lAM">CR300K | CR300K-DC | CR380K</p>
+                            </a>
+                            <a class="list-group-item list-group-item-action border-0 p-4" href="#UCMK-GravityPour">
+                                <p class="left-nav-title">Oil Jacketed Melting Kettles with Gravity Pour Delivery
+                                    System<span class="LColor"> (UCMK)</span></p>
+                                <p class="mt-2 mb-0 lAM">Available Propane Models</p>
+                                <p class="LColor mb-3 lAM">UCMK65PT | UCMK130PT | UCMK230PT | UCMK370PT</p>
+                                <p class="mt-2 mb-0 lAM">Available Diesel Models</p>
+                                <p class="LColor mb-3 lAM">UCMK130DT | UCMK230DT | UCMK370DT</p>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+                <!-- main display container for the interactive product card on desktop and tablet displays  -->
+                <main class="col-md-9 col-xl-9 py-md-5" role="main">
+                    <!-- Demo of a single interactive product card  -->
+                    <div class="container mb-5" id="DF-Melting-Kettles">
+                        <div class="row my-4 mx-auto py-2">
+                            <div class="col-12 ps-0 py-2 border-bottom mb-4">
+                                <p class="machine-cat-title">Direct Fired Asphalt Melting Kettles<span class="LColor">
+                                        (DF)</span></p>
+                            </div>
+                            <div class="col-12">
+                                <article class="ProductDetails pro-dets row d-none d-md-flex ">
+                                    <div class="ProductImgBox img-box col-lg-7 col-md-12 product-img-box d-flex">
+                                        <img class="p-Image img-fluid" id="mpImg"
+                                            src='https://marathonequipmentinc.com/wp-content/uploads/2020/11/crack-sealing-waterproofing-direct-fired-df10w.jpg'
+                                            alt="DF10W 10 gallon walk-behind direct-fired propane asphalt melting kettle">
+                                    </div>
+                                    <div class="ProductWrap p-wrap col-lg-5 col-md-12  d-flex align-items-center">
+                                        <div class="Productbox mt-sm-3 mt-lg-0">
+                                            <p class="machine-cat-title" id="modTitle">10 gal Direct Fired Asphalt
+                                                Melter </p>
+                                            <div class="mainSpecs d-flex justify-content-between">
+                                                <div class="msTC ps-0 py-2 pe-2">
+                                                    <p class="mb-1 mCat">Tank Capacity</p>
+                                                    <p class="LColor TC" id="TC">10 Gallons</p>
+                                                </div>
+                                                <div class="msBT p-2">
+                                                    <p class="mb-1 mCat">Burner Type</p>
+                                                    <p class="LColor BT" id="BT">Propane</p>
+                                                </div>
+                                                <div class="msBT p-2">
+                                                    <p class="mb-1 mCat">Frame Type</p>
+                                                    <p class="LColor FT" id="FT">Portable</p>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 avaModels">Available Models</p>
+                                            <div class=" mb-3 aOM3" id="aOM">
+                                                <button type="button" class=" model-series-btn LColor omActive"
+                                                    id="OM1">DF10W</button>
+                                                <button type="button" class=" model-series-btn LColor"
+                                                    id="OM2">DF30</button>
+                                                <button type="button" class=" model-series-btn LColor"
+                                                    id="OM3">DF60</button>
+                                                <button type="button" class=" model-series-btn LColor"
+                                                    id="OM4">DF100PT</button>
+                                            </div>
+                                            <p class="ProductDescription my-4" id="PDes"> The 10 gallon unit is mounted
+                                                on steel wheels and is equipped with a spring loaded hand release valve
+                                                for easy release of material. This unit comes equipped with a material
+                                                temperature gauge, 80,000 BTU propane burner, propane hose with
+                                                regulator and steel shoe for striking off sealant in a uniform width.
+                                            </p>
+                                            <button type="button"
+                                                class="SpecBox specs_box1 d-flex justify-content-between align-items-center p-4 my-4"
+                                                data-bs-toggle="modal" data-bs-target='#DF_Specs'>
+                                                <p class="SBSpecs">Specifications</p>
+                                                <div class="SBSIcon"> <i class="fas fa-plus" aria-hidden="true"></i>
+                                                </div>
+                                            </button>
+                                            <div class="d-flex pb-3 pe-2">
+                                                <a href='https://marathonequipmentinc.com/wp-content/uploads/2020/11/marathon-equipment-inc-df-brochure.pdf'
+                                                    role="button" target="_blank" rel="noreferrer"
+                                                    class="btn pBtnActive py-4">View Brochure</a>
+                                                <a href='https://forms.marathonequipmentinc.com/inquiry' role="button"
+                                                    target="_blank" rel="noreferrer" class="btn pBtn py-4 mx-2">Request
+                                                    A Quote</a>
+                                                <a href="/marathonwebsite-template/public/../public/page.php?id=learnmore&amp;model_id=DF"
+                                                    role="button" target="_blank" rel="noreferrer"
+                                                    class="btn pBtn py-4  d-none">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Demo of dual option interactive product card  -->
+                    <div class="container pt-2 mb-5" id="UCMK-GravityPour">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="ProductCarHeader mb-3">
+                                    <p class="machine-cat-title">Oil Jacketed Melting Kettles with Gravity Pour Delivery
+                                        System<span class="LColor"> (UCMK)</span></h3>
+                                    <div class="buttonGroupBox machineFam w-100 mt-4" id="UCMK-MF">
+                                        <button class="btn pBtnHead py-4 px-5 btn-OptionOne active" type="button"
+                                            id="UCMK-Option" aria-current="true" aria-label="Slide 1"
+                                            data-bs-slide-to="0" data-bs-target='#UCMKcarouselControls'>Propane</button>
+                                        <button class="btn pBtnHead py-4 px-5 btn-OptionOne " type="button"
+                                            id="UCMK-Option1" aria-label="Slide 2" data-bs-slide-to="1"
+                                            data-bs-target='#UCMKcarouselControls'>Diesel</button>
+                                    </div>
+                                </div>
+                                <div id='UCMKcarouselControls' class="carousel slide border-top"
+                                    data-bs-interval="false" style="border-top:1px solid #000;">
+                                    <div class="carousel-inner mt-4">
+                                        <div class="carousel-item active">
+                                            <article class="ProductDetails row d-none d-md-flex ">
+                                                <div class="ProductImgBox col-lg-7 col-md-12 product-img-box d-flex">
+                                                    <img class="p-Image img-fluid" id="mpImg4"
+                                                        src='https://marathonequipmentinc.com/wp-content/uploads/2020/11/crack-sealing-waterproofing-gravity-pour-ucmk130pt.jpg'
+                                                        alt="UCMK130PT 130 gallon trailer-mounted propane-fired oil-jacketed gravity pour crack-sealing melting kettle">
+                                                </div>
+                                                <div class="ProductWrap col-lg-5 col-md-12  d-flex align-items-center">
+                                                    <div class="Productbox mt-sm-3 mt-lg-0">
+                                                        <p class="machine-cat-title" id="modTitle4">130 gal Gravity Pour
+                                                            Melting Kettle </p>
+                                                        <div class="mainSpecs d-flex justify-content-between">
+                                                            <div class="msTC ps-0 py-2 pe-2">
+                                                                <p class="mb-1 mCat">Tank Capacity</p>
+                                                                <p class="LColor TC" id="TC4">130 Gallons</p>
+                                                            </div>
+                                                            <div class="msBT p-2">
+                                                                <p class="mb-1 mCat">Burner Type</p>
+                                                                <p class="LColor BT" id="BT4">Propane</p>
+                                                            </div>
+                                                            <div class="msBT p-2">
+                                                                <p class="mb-1 mCat">Frame Type</p>
+                                                                <p class="LColor FT" id="FT4">Trailer</p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="mb-0 avaModels">Available Models</p>
+                                                        <div class="LColor mb-3 aOM3" id="aOM4">
+                                                            <button type="button" class=" model-series-btn LColor"
+                                                                id="OM9">UCMK65PT</button>
+                                                            <button type="button"
+                                                                class=" model-series-btn LColor omActive"
+                                                                id="OM10">UCMK130PT</button>
+                                                            <button type="button" class=" model-series-btn LColor"
+                                                                id="OM11">UCMK230PT</button>
+                                                            <button type="button" class=" model-series-btn LColor"
+                                                                id="OM12">UCMK370PT</button>
+                                                        </div>
+                                                        <p class="ProductDescription my-4" id="PDes4"> Marathon?s
+                                                            gravity fed asphalt melter kettles are capable of heating,
+                                                            melting and dispensing hot applied rubberized material for
+                                                            crack sealing, waterproofing, and roofing. Multiple sizes
+                                                            available from 65 gallon up to 370 gallon capacities.</p>
+                                                        <button type="button"
+                                                            class="SpecBox d-flex justify-content-between align-items-center p-4 my-4"
+                                                            data-bs-toggle="modal" data-bs-target='#UCMKPT_Specs'>
+                                                            <p class="SBSpecs">Specifications</p>
+                                                            <div class="SBSIcon"> <i class="fas fa-plus"
+                                                                    aria-hidden="true"></i>
+                                                            </div>
+                                                        </button>
+                                                        <div class="d-flex pb-3 pe-2">
+                                                            <a href='https://marathonequipmentinc.com/wp-content/uploads/2020/11/marathon-equipment-inc-ucmkpt-brochure.pdf'
+                                                                role="button" target="_blank" rel="noreferrer"
+                                                                class="btn pBtnActive py-4">View Brochure</a>
+                                                            <a href='https://forms.marathonequipmentinc.com/inquiry'
+                                                                role="button" target="_blank" rel="noreferrer"
+                                                                class="btn pBtn py-4 mx-2">Request A Quote</a>
+                                                            <a href="/marathonwebsite-template/public/../public/page.php?id=learnmore&amp;model_id=UCMK"
+                                                                role="button" target="_blank" rel="noreferrer"
+                                                                class="btn pBtn py-4  d-none">Learn More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <article class="ProductDetails row d-none d-md-flex ">
+                                                <div class="ProductImgBox col-lg-7 col-md-12 product-img-box d-flex">
+                                                    <img class="p-Image img-fluid" id="mpImg5"
+                                                        src='https://marathonequipmentinc.com/wp-content/uploads/2020/11/crack-sealing-waterproofing-gravity-pour-ucmk230dt.jpg'
+                                                        alt="UCMK Diesel Trailer">
+                                                </div>
+                                                <div class="ProductWrap col-lg-5 col-md-12  d-flex align-items-center">
+                                                    <div class="Productbox mt-sm-3 mt-lg-0">
+                                                        <p class="machine-cat-title" id="modTitle5">230 gal Gravity Pour
+                                                            Melting Kettle </p>
+                                                        <div class="mainSpecs d-flex justify-content-between">
+                                                            <div class="msTC ps-0 py-2 pe-2">
+                                                                <p class="mb-1 mCat">Tank Capacity</p>
+                                                                <p class="LColor TC" id="TC5">230 Gallons</p>
+                                                            </div>
+                                                            <div class="msBT p-2">
+                                                                <p class="mb-1 mCat">Burner Type</p>
+                                                                <p class="LColor BT" id="BT5">Diesel</p>
+                                                            </div>
+                                                            <div class="msBT p-2">
+                                                                <p class="mb-1 mCat">Frame Type</p>
+                                                                <p class="LColor FT" id="FT5">Trailer</p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="mb-0 avaModels">Available Models</p>
+                                                        <div class="LColor mb-3 aOM3" id="aOM5">
+                                                            <button type="button" class=" model-series-btn LColor"
+                                                                id="OM13">UCMK130DT</button>
+                                                            <button type="button"
+                                                                class=" model-series-btn LColor omActive"
+                                                                id="OM14">UCMK230DT</button>
+                                                            <button type="button" class=" model-series-btn LColor"
+                                                                id="OM15">UCMK370DT</button>
+                                                        </div>
+                                                        <p class="ProductDescription my-4" id="PDes5"> Marathon?s
+                                                            gravity fed asphalt melter kettles are capable of heating,
+                                                            melting and dispensing hot applied rubberized material for
+                                                            crack sealing, waterproofing, and roofing. Available as one
+                                                            single fuel source, makes them more efficient and economical
+                                                            to run.</p>
+                                                        <button type="button"
+                                                            class="SpecBox d-flex justify-content-between align-items-center p-4 my-4"
+                                                            data-bs-toggle="modal" data-bs-target='#UCMKDT_Specs'>
+                                                            <p class="SBSpecs">Specifications</p>
+                                                            <div class="SBSIcon"> <i class="fas fa-plus"
+                                                                    aria-hidden="true"></i>
+                                                            </div>
+                                                        </button>
+                                                        <div class="d-flex pb-3 pe-2">
+                                                            <a href='https://marathonequipmentinc.com/wp-content/uploads/2020/11/marathon-equipment-inc-ucmkdt-brochure.pdf'
+                                                                role="button" target="_blank" rel="noreferrer"
+                                                                class="btn pBtnActive py-4">View Brochure</a>
+                                                            <a href='https://forms.marathonequipmentinc.com/inquiry'
+                                                                role="button" target="_blank" rel="noreferrer"
+                                                                class="btn pBtn py-4 mx-2">Request A Quote</a>
+                                                            <a href="/marathonwebsite-template/public/../public/page.php?id=learnmore&amp;model_id=UCMK"
+                                                                role="button" target="_blank" rel="noreferrer"
+                                                                class="btn pBtn py-4  d-none">Learn More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <!-- mobile version of the interactive product cards -->
+        <div class="container-fluid d-md-none">
+            <!-- Demo of mobile single interactive product card  -->
+            <div class="container mt-5" id="mobile-DF-Melting-Kettles">
+                <div class="row">
+                    <article class="col-12 mb-3">
+                        <h3>Direct Fired Asphalt Melting Kettles <span class="LColor">DF</span>
+                        </h3>
+                        <p class="mb-0 avaModels mt-3">Available Models</p>
+                        <div class="LColor mb-3 aOM3 " id="aOM10">
+                            <button type="button" class=" model-series-btn LColor omActive" id="OM23">DF10W</button>
+                            <button type="button" class=" model-series-btn LColor" id="OM24">DF30</button>
+                            <button type="button" class=" model-series-btn LColor" id="OM25">DF60</button>
+                            <button type="button" class=" model-series-btn LColor" id="OM26">DF100PT</button>
+                        </div>
+                        <div class="mainSpecs d-flex justify-content-between">
+                            <div class="msTC pl-0 py-2 pr-2">
+                                <p class="mb-1 mCat">Tank Capacity</p>
+                                <p class="LColor TC" id="TC10">10 Gallons</p>
+                            </div>
+                            <div class="msBT p-2">
+                                <p class="mb-1 mCat">Burner Type</p>
+                                <p class="LColor BT" id="BT10">Propane</p>
+                            </div>
+                            <div class="msBT p-2">
+                                <p class="mb-1 mCat">Frame Type</p>
+                                <p class="LColor FT" id="FT10">Portable</p>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <img class="p-Image img-fluid" id="mpImg10"
+                                src="https://marathonequipmentinc.com/wp-content/uploads/2020/11/crack-sealing-waterproofing-direct-fired-df10w.jpg"
+                                alt="DF10W 10 gallon walk-behind direct-fired propane asphalt melting kettle">
+                            <div class="card-header border-0">
+                                <h3 class="card-title mb-0" id="modTitle10">10 gal Direct Fired Asphalt Melter</h3>
+                            </div>
+                        </div>
+                        <p class="mobile_ProDescp mt-3 " id="PDes10">The 10 gallon unit is mounted on steel wheels and
+                            is equipped with a spring loaded hand release valve for easy release of material. This unit
+                            comes equipped with a material temperature gauge, 80,000 BTU propane burner, propane hose
+                            with regulator and steel shoe for striking off sealant in a uniform width.</p>
+                        <button type="button"
+                            class="mobileSpecBox d-flex justify-content-between align-items-center p-4 my-4"
+                            data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
+                            data-bs-target="#collapseDF_Specs">
+                            <p class="SBSpecs">Specifications</p>
+                            <div class="SBSIcon"> <i class="fas fa-plus" aria-hidden="true"></i>
+                            </div>
+                        </button>
+                        <div class="collapse" id="collapseDF_Specs">
+                            <div class="card card-body" id="DF_Specscontainer">
+                                <table class="table table-borderless table-sm t-active" id="DF10WTable">
+                                    <tbody>
+                                        <tr>
+                                            <td>Capacity</td>
+                                            <td>10 Gallons</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Weight</td>
+                                            <td>152 lbs (69 kg)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Length</td>
+                                            <td>53"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Width</td>
+                                            <td>28"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Height</td>
+                                            <td>38"</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless table-sm d-none" id="DF30Table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Capacity</td>
+                                            <td>30 Gallons</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Weight</td>
+                                            <td>282 lbs (128 kg)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Length</td>
+                                            <td>60"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Width</td>
+                                            <td>26"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Height</td>
+                                            <td>36"</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless table-sm d-none" id="DF60Table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Capacity</td>
+                                            <td>60 Gallons</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Weight</td>
+                                            <td>520 lbs (236 kg)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Length</td>
+                                            <td>65"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Width</td>
+                                            <td>31"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Height</td>
+                                            <td>49"</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless table-sm d-none" id="DF100PTTable">
+                                    <tbody>
+                                        <tr>
+                                            <td>Capacity</td>
+                                            <td>100 Gallons</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Weight</td>
+                                            <td>1,790 lbs (812 kg)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Length</td>
+                                            <td>138"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Width</td>
+                                            <td>65"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Height</td>
+                                            <td>66"</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between my-3">
+                            <a href="https://marathonequipmentinc.com/wp-content/uploads/2020/11/marathon-equipment-inc-df-brochure.pdf"
+                                role="button" target="_blank" rel="noreferrer" class="btn pBtnActive py-4">View
+                                Brochure</a>
+                            <a href="https://forms.marathonequipmentinc.com/inquiry" role="button" target="_blank"
+                                rel="noreferrer" class="btn pBtn py-4 mx-2">Request A Quote</a>
+                            <a href="/marathonwebsite-template/public/../public/page.php?id=learnmore&amp;model_id=DF"
+                                role="button" target="_blank" rel="noreferrer" class="btn pBtn py-4  d-none">Learn
+                                More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- Demo of mobile dual option interactive product card  -->
+            <div class="container mt-5" id='mobile-UCMK-GravityPour'>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="MobileProductCatHeader">
+                            <h3>Oil Jacketed Melting Kettles with Gravity Pour Delivery System <span
+                                    class="LColor">UCMK</span>
+                            </h3>
+                            <div class="buttonGroupBox machineFam w-100" id='mobile-UCMK-MF'>
+                                <button class="btn pBtnHead py-4 px-5 btn-OptionOne active" role="button"
+                                    id='UCMK-Option' aria-current="true" aria-label="Slide 1" data-bs-slide-to="0"
+                                    data-bs-target='#mobileUCMKcarouselControls'>Propane</button>
+                                <button class="btn pBtnHead py-4 px-5 mt-2 mb-3 btn-OptionOne " role="button"
+                                    id='UCMK-Option1' aria-label="Slide 2" data-bs-slide-to="1"
+                                    data-bs-target='#mobileUCMKcarouselControls'>Diesel</button>
+                            </div>
+                        </div>
+                        <div id='mobileUCMKcarouselControls' class="carousel slide carouselBorder" data-interval="true">
+                            <div class="carousel-inner my-4">
+                                <div class="carousel-item active">
+                                    <div class="w-100">
+                                        <p class="mb-0 avaModels mt-3">Available Models</p>
+                                        <div class="LColor mb-3 aOM3 " id='aOM13'>
+                                            <button type="button" class=" model-series-btn LColor"
+                                                id='OM31'>UCMK65PT</button>
+                                            <button type="button" class=" model-series-btn LColor omActive"
+                                                id='OM32'>UCMK130PT</button>
+                                            <button type="button" class=" model-series-btn LColor"
+                                                id='OM33'>UCMK230PT</button>
+                                            <button type="button" class=" model-series-btn LColor"
+                                                id='OM34'>UCMK370PT</button>
+                                        </div>
+                                        <div class="mainSpecs d-flex justify-content-between">
+                                            <div class="msTC pl-0 py-2 pr-2">
+                                                <p class="mb-1 mCat">Tank Capacity</p>
+                                                <p class="LColor TC" id='TC13'>130 Gallons</p>
+                                            </div>
+                                            <div class="msBT p-2">
+                                                <p class="mb-1 mCat">Burner Type</p>
+                                                <p class="LColor BT" id='BT13'>Propane</p>
+                                            </div>
+                                            <div class="msBT p-2">
+                                                <p class="mb-1 mCat">Frame Type</p>
+                                                <p class="LColor FT" id='FT13'>Trailer</p>
+                                            </div>
+                                        </div>
+                                        <div class="card border-0">
+                                            <img class="p-Image img-fluid" id='mpImg13'
+                                                src='https://marathonequipmentinc.com/wp-content/uploads/2020/11/crack-sealing-waterproofing-gravity-pour-ucmk130pt.jpg'
+                                                alt='UCMK130PT 130 gallon trailer-mounted propane-fired oil-jacketed gravity pour crack-sealing melting kettle'>
+                                            <div class="card-header border-0">
+                                                <h3 class="card-title mb-0" id='modTitle13'>130 gal Gravity Pour Melting
+                                                    Kettle</h3>
+                                            </div>
+                                        </div>
+                                        <p class="mobile_ProDescp mt-3 " id='PDes13'>Marathon?s gravity fed asphalt
+                                            melter kettles are capable of heating, melting and dispensing hot applied
+                                            rubberized material for crack sealing, waterproofing, and roofing. Multiple
+                                            sizes available from 65 gallon up to 370 gallon capacities.</p>
+                                        <button type="button"
+                                            class="mobileSpecBox d-flex justify-content-between align-items-center p-4 my-4"
+                                            data-bs-toggle="collapse" aria-expanded="false"
+                                            aria-controls="collapseExample" data-bs-target='#collapseUCMKPT_Specs'>
+                                            <p class="SBSpecs">Specifications</p>
+                                            <div class="SBSIcon"> <i class="fas fa-plus" aria-hidden="true"></i>
+                                            </div>
+                                        </button>
+                                        <div class="collapse" id="collapseUCMKPT_Specs">
+                                            <div class="card card-body" id="UCMKPT_Specscontainer">
+                                                <table class="table table-borderless table-sm d-none"
+                                                    id="UCMK65PTTable">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Shipping Weight</td>
+                                                            <td>2,150 lbs(975 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Length</td>
+                                                            <td>116"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Width</td>
+                                                            <td>71"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Height</td>
+                                                            <td>60"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Loading Height</td>
+                                                            <td>49"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Capacity</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Material Vat</td>
+                                                            <td>65 gal (246 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Heat Transfer Oil</td>
+                                                            <td>16 gal (60 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engine</td>
+                                                            <td>5.5hp Honda</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Burner</td>
+                                                            <td>(1) 300,000 BTU vapour propane</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Suspension</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Axle(s)</td>
+                                                            <td>Single</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capacity</td>
+                                                            <td>3,500 lbs (1,587 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tires-Size</td>
+                                                            <td>(2) 205/75/R15</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table class="table table-borderless table-sm t-active"
+                                                    id="UCMK130PTTable">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Shipping Weight</td>
+                                                            <td>3,045 lbs (1,381 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Length</td>
+                                                            <td>116"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Width</td>
+                                                            <td>80”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Height</td>
+                                                            <td>68"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Loading Height</td>
+                                                            <td>50"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Capacity</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Material Vat</td>
+                                                            <td>130 gal (492 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Heat Transfer Oil</td>
+                                                            <td>28 gal (106 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engine</td>
+                                                            <td>5.5hp Honda</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Burner</td>
+                                                            <td>(1) 410,000 BTU vapour propane</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Suspension</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Axle(s)</td>
+                                                            <td>Single</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capacity</td>
+                                                            <td>5,200 lbs (3,182 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tires-Size</td>
+                                                            <td>(2) 225/75/R15</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table class="table table-borderless table-sm d-none"
+                                                    id="UCMK230PTTable">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Shipping Weight</td>
+                                                            <td>3,419 lbs (1,550 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Length</td>
+                                                            <td>187”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Width</td>
+                                                            <td>80”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Height</td>
+                                                            <td>74"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Loading Height</td>
+                                                            <td>54”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Capacity</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Material Vat</td>
+                                                            <td>230 gal (870 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Heat Transfer Oil</td>
+                                                            <td>35 gal (132 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engine</td>
+                                                            <td>5.5hp Honda</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Burner</td>
+                                                            <td>(1) 410,000 BTU vapour propane</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Suspension</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Axle(s)</td>
+                                                            <td>Single</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capacity</td>
+                                                            <td>7,000 lbs (3,175 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tires-Size</td>
+                                                            <td>(2) 235/85/R16</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table class="table table-borderless table-sm d-none"
+                                                    id="UCMK370PTTable">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Shipping Weight</td>
+                                                            <td>5,170 lbs (2,345 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Length</td>
+                                                            <td>221"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Width</td>
+                                                            <td>80”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Height</td>
+                                                            <td>75"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Loading Height</td>
+                                                            <td>55”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Capacity</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Material Vat</td>
+                                                            <td>370 gal (1,400 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Heat Transfer Oil</td>
+                                                            <td>55 gal (208 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Engine</td>
+                                                            <td>5.5hp Honda</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Burner</td>
+                                                            <td>(1) 410,000 BTU vapour propane</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Suspension</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Axle(s)</td>
+                                                            <td>Tandem</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capacity</td>
+                                                            <td>10,400 lbs (4,717 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tires-Size</td>
+                                                            <td>(4) 225/75/R15</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between my-3">
+                                            <a href='https://marathonequipmentinc.com/wp-content/uploads/2020/11/marathon-equipment-inc-ucmkpt-brochure.pdf'
+                                                role="button" target="_blank" rel="noreferrer"
+                                                class="btn pBtnActive py-4">View Brochure</a>
+                                            <a href='https://forms.marathonequipmentinc.com/inquiry' role="button"
+                                                target="_blank" rel="noreferrer" class="btn pBtn py-4 mx-2">Request A
+                                                Quote</a>
+                                            <a href="/marathonwebsite-template/public/../public/page.php?id=learnmore&amp;model_id=UCMK"
+                                                role="button" target="_blank" rel="noreferrer"
+                                                class="btn pBtn py-4  d-none">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div>
+                                        <p class="mb-0 avaModels mt-3">Available Models</p>
+                                        <div class="LColor mb-3 aOM3 " id='aOM14'>
+                                            <button type="button" class=" model-series-btn LColor"
+                                                id='OM35'>UCMK130DT</button>
+                                            <button type="button" class=" model-series-btn LColor omActive"
+                                                id='OM36'>UCMK230DT</button>
+                                            <button type="button" class=" model-series-btn LColor"
+                                                id='OM37'>UCMK370DT</button>
+                                        </div>
+                                        <div class="mainSpecs d-flex justify-content-between">
+                                            <div class="msTC pl-0 py-2 pr-2">
+                                                <p class="mb-1 mCat">Tank Capacity</p>
+                                                <p class="LColor TC" id='TC14'>230 Gallons</p>
+                                            </div>
+                                            <div class="msBT p-2">
+                                                <p class="mb-1 mCat">Burner Type</p>
+                                                <p class="LColor BT" id='BT14'>Diesel</p>
+                                            </div>
+                                            <div class="msBT p-2">
+                                                <p class="mb-1 mCat">Frame Type</p>
+                                                <p class="LColor FT" id='FT14'>Trailer</p>
+                                            </div>
+                                        </div>
+                                        <div class="card border-0">
+                                            <img class="p-Image img-fluid" id='mpImg14'
+                                                src='https://marathonequipmentinc.com/wp-content/uploads/2020/11/crack-sealing-waterproofing-gravity-pour-ucmk230dt.jpg'
+                                                alt='UCMK Diesel Trailer'>
+                                            <div class="card-header border-0">
+                                                <h3 class="card-title mb-0" id='modTitle14'>230 gal Gravity Pour Melting
+                                                    Kettle</h3>
+                                            </div>
+                                        </div>
+                                        <p class="mobile_ProDescp mt-3 " id='PDes14'>Marathon?s gravity fed asphalt
+                                            melter kettles are capable of heating, melting and dispensing hot applied
+                                            rubberized material for crack sealing, waterproofing, and roofing. Available
+                                            as one single fuel source, makes them more efficient and economical to run.
+                                        </p>
+                                        <button type="button"
+                                            class="mobileSpecBox d-flex justify-content-between align-items-center p-4 my-4"
+                                            data-bs-toggle="collapse" aria-expanded="false"
+                                            aria-controls="collapseExample" data-bs-target='#collapseUCMKDT_Specs'>
+                                            <p class="SBSpecs">Specifications</p>
+                                            <div class="SBSIcon"> <i class="fas fa-plus" aria-hidden="true"></i>
+                                            </div>
+                                        </button>
+                                        <div class="collapse show" id="collapseUCMKDT_Specs">
+                                            <div class="card card-body" id="UCMKDT_Specscontainer">
+                                                <table class="table table-borderless table-sm d-none"
+                                                    id="UCMK130DTTable">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Shipping Weight</td>
+                                                            <td>3,045 lbs (1,381 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Length</td>
+                                                            <td>166”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Width</td>
+                                                            <td>80”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Height</td>
+                                                            <td>68"</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Loading Height</td>
+                                                            <td>50”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Capacity</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Material Vat</td>
+                                                            <td>130 gal (492 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Heat Transfer Oil</td>
+                                                            <td>28 gal (106 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Diesel Engine</td>
+                                                            <td>6hp Kubota</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Burner</td>
+                                                            <td>(1) 324,000 BTU diesel burner</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Suspension</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Axle(s)</td>
+                                                            <td>Single</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capacity</td>
+                                                            <td>5,200 lbs (3,182 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tires-Size</td>
+                                                            <td>(2) 225/75/R15</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table class="table table-borderless table-sm t-active"
+                                                    id="UCMK230DTTable">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Shipping Weight</td>
+                                                            <td>4,116 lbs (1,867 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Length</td>
+                                                            <td>187”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Width</td>
+                                                            <td>80”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Height</td>
+                                                            <td>72”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Loading Height</td>
+                                                            <td>52”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Capacity</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Material Vat</td>
+                                                            <td>230 gal (870 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Heat Transfer Oil</td>
+                                                            <td>35 gal (132 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Diesel Engine</td>
+                                                            <td>6hp Kubota</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Burner</td>
+                                                            <td>(1) 324,000 BTU diesel burner</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Suspension</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Axle(s)</td>
+                                                            <td>Tandem</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capacity</td>
+                                                            <td>10,400 lbs (4,717 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tires-Size</td>
+                                                            <td>(4) 225/75/R15</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table class="table table-borderless table-sm d-none"
+                                                    id="UCMK370DTTable">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Shipping Weight</td>
+                                                            <td>5,287 lbs (2,398 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Dimensions</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Length</td>
+                                                            <td>221”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Width</td>
+                                                            <td>80”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Overall Height</td>
+                                                            <td>75”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Loading Height</td>
+                                                            <td>55”</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Capacity</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Material Vat</td>
+                                                            <td>370 gal (1,399 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Heat Transfer Oil</td>
+                                                            <td>55 gal (208 L)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Diesel Engine</td>
+                                                            <td>6hp Kubota</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Burner</td>
+                                                            <td>(1) 324,000 BTU diesel burner</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="tbSpecTitle" colspan="2">Suspension</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Axle(s)</td>
+                                                            <td>Tandem</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capacity</td>
+                                                            <td>10,400 lbs (4,717 kg)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tires-Size</td>
+                                                            <td>(4) 225/75/R15</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between my-3">
+                                            <a href='https://marathonequipmentinc.com/wp-content/uploads/2020/11/marathon-equipment-inc-ucmkdt-brochure.pdf'
+                                                role="button" target="_blank" rel="noreferrer"
+                                                class="btn pBtnActive py-4">View Brochure</a>
+                                            <a href='https://forms.marathonequipmentinc.com/inquiry' role="button"
+                                                target="_blank" rel="noreferrer" class="btn pBtn py-4 mx-2">Request A
+                                                Quote</a>
+                                            <a href="#" role="button" target="_blank" rel="noreferrer"
+                                                class="btn pBtn py-4    d-none">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Specifications table list -->
+        <div class="modal fade px-3" id="DF_Specs" tabindex="-1" aria-labelledby="DF_SpecsLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" style="max-width: 1075px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table table-borderless table-hover">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 200px;">Models</th>
+                                        <th>DF10W</th>
+                                        <th>DF30</th>
+                                        <th>DF60</th>
+                                        <th>DF100PT</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Capacity</td>
+                                        <td>10 Gallons</td>
+                                        <td>30 Gallons</td>
+                                        <td>60 Gallons</td>
+                                        <td>100 Gallons</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Weight</td>
+                                        <td>152 lbs (69 kg)</td>
+                                        <td>282 lbs (128 kg)</td>
+                                        <td>520 lbs (236 kg)</td>
+                                        <td>1,790 lbs (812 kg)</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5" class="tbSpecTitle">Dimensions</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Length</td>
+                                        <td>53”</td>
+                                        <td>60”</td>
+                                        <td>65”</td>
+                                        <td>138”</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Width</td>
+                                        <td>28”</td>
+                                        <td>26”</td>
+                                        <td>31”</td>
+                                        <td>65”</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Height</td>
+                                        <td>38”</td>
+                                        <td>36”</td>
+                                        <td>49”</td>
+                                        <td>66”</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- UCMK PT specs table -->
+        <div class="modal fade px-3" id="UCMKPT_Specs" tabindex="-1" aria-labelledby="UCMKPT_SpecsLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" style="max-width: 1075px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table table-borderless table-hover">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 200px;">Models</th>
+                                        <th>UCMK65PT</th>
+                                        <th>UCMK130PT</th>
+                                        <th>UCMK230PT</th>
+                                        <th>UCMK370PT</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Shipping Weight</td>
+                                        <td>2,150 lbs (975 kg)</td>
+                                        <td>3,045 lbs (1,381 kg)</td>
+                                        <td>3,419 lbs (1,550 kg)</td>
+                                        <td>5,170 lbs (2,345 kg)</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5" class="tbSpecTitle"><b> Dimensions </b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Overall Length</td>
+                                        <td>116”</td>
+                                        <td>149”</td>
+                                        <td>169”</td>
+                                        <td>195"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Overall Width</td>
+                                        <td>71”</td>
+                                        <td>80”</td>
+                                        <td>80”</td>
+                                        <td>80"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Overall Height</td>
+                                        <td>60”</td>
+                                        <td>68"</td>
+                                        <td>74"</td>
+                                        <td>75"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Loading Height</td>
+                                        <td>49”</td>
+                                        <td>50”</td>
+                                        <td>54”</td>
+                                        <td>55"</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5" class="tbSpecTitle"><b>Capacity</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Material Vat</td>
+                                        <td>65 gal (246 L)</td>
+                                        <td>130 gal (492 L)</td>
+                                        <td>230 gal (870 L)</td>
+                                        <td>370 gal (1,400 L)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Heat Transfer Oil</td>
+                                        <td>16 gal (60 L)</td>
+                                        <td>28 gal (106 L)</td>
+                                        <td>35 gal (132 L)</td>
+                                        <td>55 gal (208 L)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Engine</td>
+                                        <td>5.5hp Honda</td>
+                                        <td>5.5hp Honda</td>
+                                        <td>5.5hp Honda</td>
+                                        <td>5.5hp Honda</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Burner</td>
+                                        <td>(1) 300,000 BTU vapour propane</td>
+                                        <td>(1) 410,000 BTU vapour propane</td>
+                                        <td>(1) 410,000 BTU vapour propane</td>
+                                        <td>(2) 410,000 BTU vapour propane</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5" class="tbSpecTitle"><b>Suspension</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Axle(s)</td>
+                                        <td>Single</td>
+                                        <td>Single</td>
+                                        <td>Single</td>
+                                        <td>Tandem</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Capacity</td>
+                                        <td>3,500 lbs (1,587 kg)</td>
+                                        <td>5,200 lbs (3,182 kg)</td>
+                                        <td>7,000 lbs (3,175 kg)</td>
+                                        <td>10,400 lbs (4,717 kg)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tires - Size</td>
+                                        <td>(2) 205/75/R15</td>
+                                        <td>(2) 225/75/R15</td>
+                                        <td>(2) 235/85/R16</td>
+                                        <td>(4) 225/75/R15</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- UCMK DT specs table -->
+        <div class="modal fade px-3" id="UCMKDT_Specs" tabindex="-1" aria-labelledby="UCMKDT_SpecsLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" style="max-width: 1075px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table table-borderless table-hover">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 200px;">Models</th>
+                                        <th>UCMK130DT</th>
+                                        <th>UCMK230DT</th>
+                                        <th>UCMK370DT</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Shipping Weight</td>
+                                        <td>3,045 lbs (1,381 kg)</td>
+                                        <td>4,116 lbs (1,867 kg)</td>
+                                        <td>5,287 lbs (2,398 kg)</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5" class="tbSpecTitle"><b> Dimensions </b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Overall Length</td>
+                                        <td>161”</td>
+                                        <td>182”</td>
+                                        <td>216”</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Overall Width</td>
+                                        <td>80”</td>
+                                        <td>80”</td>
+                                        <td>80”</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Overall Height</td>
+                                        <td>68”</td>
+                                        <td>72”</td>
+                                        <td>75”</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Loading Height</td>
+                                        <td>50”</td>
+                                        <td>52”</td>
+                                        <td>55”</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" class="tbSpecTitle"><b>Capacity</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Material Vat</td>
+                                        <td>130 gal (492 L)</td>
+                                        <td>230 gal (870 L)</td>
+                                        <td>370 gal (1,399 L)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Heat Transfer Oil</td>
+                                        <td>28 gal (106 L)</td>
+                                        <td>35 gal (132 L)</td>
+                                        <td>55 gal (208 L)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Diesel Engine</td>
+                                        <td>6hp Kubota</td>
+                                        <td>6hp Kubota</td>
+                                        <td>6hp Kubota</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Burner</td>
+                                        <td>(1) 324,000 BTU diesel burner</td>
+                                        <td>(1) 324,000 BTU diesel burner</td>
+                                        <td>(2) 324,000 BTU diesel burners</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Suspension</td>
+                                        <td>Single</td>
+                                        <td>Tandem</td>
+                                        <td>Tandem</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Capacity</td>
+                                        <td>5,200 lbs (3,182 kg)</td>
+                                        <td>10,400 lbs (4,717 kg)</td>
+                                        <td>10,400 lbs (4,717 kg)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tires - Size</td>
+                                        <td>(2) 225/75/R15</td>
+                                        <td>(4) 225/75/R15</td>
+                                        <td>(4) 225/75/R15</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
+        <script src="js/state.js"></script>
+        <script type="text/javascript" src="js/cardfunctions.js"></script>
+        <script src="https://kit.fontawesome.com/1e051d1279.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
